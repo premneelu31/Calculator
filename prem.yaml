@@ -1,0 +1,8 @@
+---
+- name: this is file create playbook
+  hosts: all
+  become: true
+  gather_facts: true
+  tasks:
+    - name: tis is file creation
+
